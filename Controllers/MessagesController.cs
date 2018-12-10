@@ -27,7 +27,7 @@ namespace TranslationBot
 
         private static HttpClient _client = new HttpClient();
 
-        private const string key = "c2a91b23f5d24ce389d1e687900a6421";
+        private const string key = "YOUR_API_KEY";
         //private string tolangcode = "en";
         //private bool check = false;
         public async Task<HttpResponseMessage> Post([FromBody]Activity activity)
